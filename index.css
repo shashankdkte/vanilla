@@ -103,3 +103,13 @@ a {
 .grid-item:hover {
   transform: scale(1.05);
 }
+
+.item-img {
+  position: relative;
+}
+
+.img-item img {
+  object-fit: cover;
+  border-radius: 5px !important;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
